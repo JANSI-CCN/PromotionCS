@@ -13,11 +13,11 @@ namespace TestProject
 
         static Products()
         {
-            products.Add("redDress",    new Product("1001.1", "Red Dress",   100.0));
-            products.Add("greenDress",  new Product("1001.2", "Green Dress", 100.0));
-            products.Add("blueDress",   new Product("1001.3", "Blue Dress",  100.0));
-            products.Add("whiteSocks",  new Product("2001.1", "White Socks", 10.0));
-            products.Add("redSocks",    new Product("2001.2", "Red Socks",   10.0));
+            products.Add("redDress",    new Product("1001.1","dress", "Red Dress",   100.0));
+            products.Add("greenDress",  new Product("1001.2","dress", "Green Dress", 100.0));
+            products.Add("blueDress", new Product("1001.3", "dress", "Blue Dress", 100.0));
+            products.Add("whiteSocks", new Product("2001.1", "sock", "White Socks", 10.0));
+            products.Add("redSocks", new Product("2001.2", "sock", "Red Socks", 10.0));
         }
 
         public static Product GetProduct(string name)
