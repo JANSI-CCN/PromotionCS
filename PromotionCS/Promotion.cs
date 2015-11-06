@@ -8,5 +8,16 @@ namespace PromotionCS
 {
     public class Promotion
     {
+  
+        public double DiscountRate
+        {
+            get;
+            set; 
+        }
+
+        public void setPromo (double promo)
+        {
+            DiscountRate = promo;
+        }
     }
 }
